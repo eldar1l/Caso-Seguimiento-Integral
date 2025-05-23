@@ -1,3 +1,5 @@
+package Entidades;
+
 public class Usuario {
     private String nombre;
     private String apellido;
@@ -38,6 +40,6 @@ public class Usuario {
     // Método toString
     @Override
     public String toString() {
-        return "Usuario: " + nombre + " " + apellido + ", Email: " + email;
+        return "Entidades.Usuario: " + nombre + " " + apellido + ", Email: " + email;
     }
 }
